@@ -13,6 +13,7 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     # Job steps
     steps:
       - uses: actions/checkout@v1

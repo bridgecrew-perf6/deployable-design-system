@@ -6,7 +6,7 @@ export interface Props extends HTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
 
   /** Which variant look would you like to use */
-  variant: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary';
 }
 
 const ButtonStyle = styled.button`
