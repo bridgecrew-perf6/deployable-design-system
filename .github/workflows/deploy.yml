@@ -1,5 +1,5 @@
 # Workflow name
-name: Chromatic Publish
+name: Deploy Chromatic and GH Pages
 
 # Event for the workflow
 on:
@@ -11,7 +11,7 @@ on:
 
 # List of jobs
 jobs:
-  test:
+  chromatic:
     # Operating System
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
@@ -26,3 +26,15 @@ jobs:
           #👇 Chromatic projectToken,
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GH_TOKEN }}
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    needs: chromatic
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+      - name: Install and Deploy 🔧
+        run: | # Install npm packages and build the Storybook files
+          yarn
+          yarn deploy-storybook -- --ci
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
