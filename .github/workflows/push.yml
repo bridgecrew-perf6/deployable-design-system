@@ -3,9 +3,10 @@ name: Release
 
 # The event that will trigger the action
 on:
-  push:
-    branches: [main]
-
+  workflow_run:
+    workflows: ['CI']
+    types:
+      - completed
 # what the action will do
 jobs:
   release:

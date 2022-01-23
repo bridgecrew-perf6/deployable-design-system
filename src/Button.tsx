@@ -10,7 +10,7 @@ export interface Props extends HTMLAttributes<HTMLButtonElement> {
 }
 
 const ButtonStyle = styled.button`
-  background: palevioletred;
+  background: orange;
   border-radius: 3px;
   border: none;
   font-family: 'Matter';
@@ -18,7 +18,7 @@ const ButtonStyle = styled.button`
 
 /** This is a button */
 const Button = ({ children, variant = 'primary', ...props }: Props) => {
-  return <ButtonStyle {...props}>{children}</ButtonStyle>;
+  return <ButtonStyle {...props}></ButtonStyle>;
 };
 
 export { Button };
