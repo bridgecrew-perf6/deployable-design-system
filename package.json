@@ -42,6 +42,11 @@
   "module": "dist/deployable-design-system.esm.js",
   "description": "deployable design system",
   "repository": "https://github.com/deploy-able/deployable-design-system.git",
+  "storybook-deployer": {
+    "gitUsername": "jpdeployable",
+    "gitEmail": "john@deployable.co",
+    "commitMessage": "Deploy Storybook to GitHub Pages"
+  },
   "size-limit": [
     {
       "path": "dist/deployable-design-system.cjs.production.min.js",

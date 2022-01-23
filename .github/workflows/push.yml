@@ -4,7 +4,8 @@ name: Release
 # The event that will trigger the action
 on:
   workflow_run:
-    workflows: ['CI']
+    workflows: CI
+    branches: main
     types:
       - completed
 # what the action will do

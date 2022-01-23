@@ -4,7 +4,8 @@ name: Chromatic Publish
 # Event for the workflow
 on:
   workflow_run:
-    workflows: ['Release']
+    workflows: Release
+    branches: main
     types:
       - completed
 

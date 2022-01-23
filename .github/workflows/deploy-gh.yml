@@ -1,7 +1,8 @@
 name: Deploy to GH Pages
 on:
   workflow_run:
-    workflows: ['Chromatic Publish']
+    workflows: Chromatic Publish
+    branches: main
     types:
       - completed
 jobs:
