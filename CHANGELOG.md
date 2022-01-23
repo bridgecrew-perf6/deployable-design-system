@@ -1,24 +1,14 @@
 # v0.1.1 (Sun Jan 23 2022)
 
-#### ⚠️ Pushed to `master`
+#### ⚠️ Pushed to `main`
 
-- first commit (john.phung101@hotmail.com)
+- update package json ([@jpdeployable](https://github.com/jpdeployable))
+- first commit ([@jphungcode](https://github.com/jphungcode))
 
-#### Authors: 1
+#### Authors: 2
 
-- John Phung (john.phung101@hotmail.com)
-
----
-
-# v0.1.1 (Sun Jan 23 2022)
-
-#### ⚠️ Pushed to `master`
-
-- first commit (john.phung101@hotmail.com)
-
-#### Authors: 1
-
-- John Phung (john.phung101@hotmail.com)
+- [@jpdeployable](https://github.com/jpdeployable)
+- John Phung ([@jphungcode](https://github.com/jphungcode))
 
 ---
 
@@ -33,13 +23,3 @@
 - John Phung (john.phung101@hotmail.com)
 
 ---
-
-# v0.1.1 (Sun Jan 23 2022)
-
-#### ⚠️ Pushed to `master`
-
-- first commit (john.phung101@hotmail.com)
-
-#### Authors: 1
-
-- John Phung (john.phung101@hotmail.com)
