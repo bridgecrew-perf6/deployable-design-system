@@ -1,3 +1,16 @@
+# v0.1.2 (Sun Jan 23 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/deploy-able/deployable-design-system ([@jpdeployable](https://github.com/jpdeployable))
+- add chromatic yml to workflow ([@jpdeployable](https://github.com/jpdeployable))
+
+#### Authors: 1
+
+- [@jpdeployable](https://github.com/jpdeployable)
+
+---
+
 # v0.1.1 (Sun Jan 23 2022)
 
 #### ⚠️ Pushed to `main`
