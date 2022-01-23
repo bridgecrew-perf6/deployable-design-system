@@ -18,7 +18,7 @@ const ButtonStyle = styled.button`
 
 /** This is a button */
 const Button = ({ children, variant = 'primary', ...props }: Props) => {
-  return <ButtonStyle {...props}></ButtonStyle>;
+  return <ButtonStyle {...props}>{children}</ButtonStyle>;
 };
 
 export { Button };
