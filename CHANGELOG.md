@@ -1,3 +1,15 @@
+# v0.1.5 (Sun Jan 23 2022)
+
+#### ⚠️ Pushed to `main`
+
+- modify workflow ([@jpdeployable](https://github.com/jpdeployable))
+
+#### Authors: 1
+
+- [@jpdeployable](https://github.com/jpdeployable)
+
+---
+
 # v0.1.4 (Sun Jan 23 2022)
 
 #### ⚠️ Pushed to `main`
